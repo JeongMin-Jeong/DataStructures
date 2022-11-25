@@ -1,4 +1,4 @@
-package ch04_Stack;
+package ch04_stack;
 
 import java.util.*;
 

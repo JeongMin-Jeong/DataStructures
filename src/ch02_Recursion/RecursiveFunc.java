@@ -1,4 +1,4 @@
-package ch02_Recursion;
+package ch02_recursion;
 
 public class RecursiveFunc {
 

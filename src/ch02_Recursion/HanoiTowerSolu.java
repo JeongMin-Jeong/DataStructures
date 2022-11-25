@@ -1,4 +1,4 @@
-package ch02_Recursion;
+package ch02_recursion;
 
 public class HanoiTowerSolu {
 /* 하노이 타워 문제의 해결
