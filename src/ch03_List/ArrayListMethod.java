@@ -1,4 +1,4 @@
-package ch03_List;
+package ch03_list;
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ public class ArrayListMethod {
  * ArrayList특징 : 검색 빠름 O(1) / 추가,삭제 느림 O(n)
  */
 	public static void main(String[] args) {
-		List<Integer> arrList = new ArrayList<>();
+		ArrayList<Integer> arrList = new ArrayList<>();
 		
 		// add() 메소드를 이용한 요소의 저장
 		arrList.add(40);

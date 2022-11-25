@@ -1,4 +1,4 @@
-package ch02_Recursion;
+package ch02_recursion;
 
 public class RecursiveBinarySearch {
 /* 이진탐색 알고리즘의 재귀적 구현

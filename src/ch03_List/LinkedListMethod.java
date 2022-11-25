@@ -1,4 +1,4 @@
-package ch03_List;
+package ch03_list;
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ public class LinkedListMethod {
  * LinkedList특징 : 검색 느림 O(n) / 추가,삭제 빠름 O(1)
  */
 	public static void main(String[] args) {
-		List<Integer> lnkList = new LinkedList<>();
+		LinkedList<Integer> lnkList = new LinkedList<>();
 		
 		// add() 메소드를 이용한 요소의 저장
 		lnkList.add(40);
@@ -22,7 +22,7 @@ public class LinkedListMethod {
 		System.out.println();
 		
 		// remove() 메소드를 이용한 요소의 제거
-		lnkList.remove(1);
+		System.out.println("lnkList.remove(1) : " + lnkList.remove(1));
 		
 		// Enhanced for 문과 get() 메소드를 이용한 요소의 출력
 		for (int e : lnkList) {

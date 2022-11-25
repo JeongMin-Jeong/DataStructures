@@ -1,4 +1,4 @@
-package ch05_Queue;
+package ch05_queue;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ public class QueueMethod {
 /* Queue : 선입선출(FIFO)
  */
 	public static void main(String[] args) {
-		Queue<String> qu = new LinkedList<String>();	// 큐의 생성
+		Queue<String> qu = new LinkedList<>();	// 큐의 생성
 		
 		// add() 메소드를 이용한 요소의 저장
 		qu.add("넷");

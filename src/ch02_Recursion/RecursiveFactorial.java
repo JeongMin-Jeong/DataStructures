@@ -1,4 +1,4 @@
-package ch02_Recursion;
+package ch02_recursion;
 
 public class RecursiveFactorial {
 /* 팩토리얼 구현
