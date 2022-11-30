@@ -14,12 +14,12 @@ public class LinkedListMethod {
 		lnkList.add(20);
 		lnkList.add(30);
 		lnkList.add(10);
-		
 		// for 문과 get() 메소드를 이용한 요소의 출력
 		for (int i=0; i<lnkList.size(); i++) {
 			System.out.print(lnkList.get(i) + " ");
 		}
 		System.out.println();
+		System.out.println("========1========");
 		
 		// remove() 메소드를 이용한 요소의 제거
 		System.out.println("lnkList.remove(1) : " + lnkList.remove(1));
