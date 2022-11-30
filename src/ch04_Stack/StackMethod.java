@@ -6,7 +6,7 @@ public class StackMethod {
 /* Stack : 후입선출(LIFO)
  */
 	public static void main(String[] args) {
-		Stack<Integer> st = new Stack<Integer>();	// 스택의 생성
+		Stack<Integer> st = new Stack<>();	// 스택의 생성
 		
 		// push() 메소드를 이용한 요소의 저장
 		st.push(4);

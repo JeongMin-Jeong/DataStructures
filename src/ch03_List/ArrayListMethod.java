@@ -50,6 +50,7 @@ public class ArrayListMethod {
 		
 		// size() 메소드를 이용한 요소의 총 개수
 		System.out.println("리스트의 크기 : " + arrList.size());
+		System.out.println("contains(20) : " + arrList.contains(20));
 	}
 
 }
